@@ -34,8 +34,8 @@ function RenderTableRow({ obj }) {
       <Td isNumeric>{obj.JaccardIndexRatio.toFixed(3)}</Td>
       <Td isNumeric>{obj.lcsRatio.toFixed(3)}</Td>
       <Td isNumeric>{obj.levenshteinDistanceSimilarityRatio.toFixed(3)}</Td>
-      <Td isNumeric>{obj.diceCoefficientRatio.toFixed(3)}</Td>
       <Td isNumeric>{obj.mlcsRatio.toFixed(3)}</Td>
+      <Td isNumeric>{obj.diceCoefficientRatio.toFixed(3)}</Td>
     </Tr>
   );
 }
